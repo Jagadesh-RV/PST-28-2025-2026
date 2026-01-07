@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="c to f"/>
+        <attribute name="authors" value="jagad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 03:33:38 PM"/>
+        <attribute name="created" value="amFnYWQ7SkFHQURFU0g7MjAyNi0wMS0wNjsxMDo0MTowOSBBTTsyMzMx"/>
+        <attribute name="edited" value="amFnYWQ7SkFHQURFU0g7MjAyNi0wMS0wNjswMzozMzozOCBQTTsyOzI0NjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the celsius value&quot;" newline="True"/>
+            <input variable="c"/>
+            <declare name="f" type="Integer" array="False" size=""/>
+            <assign variable="f" expression="(9/5)*c+32"/>
+            <output expression="&quot;The fahrenheit value is &quot;&amp;f" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
