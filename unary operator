@@ -1,0 +1,9 @@
+public class Main { 
+    public static void main(String[] args) { 
+        int a = 18; 
+        System.out.println("Value increment after expression Postfix :"+(a++)+"  Current value of a is :"+a);
+        System.out.println("Value decrement after expression Postfix:"+(a--)+"   Current value of a is :"+a);
+        System.out.println("Value increment before expression: Prefix"+(++a)+"   Current value of a is :"+a);
+        System.out.println("Value decrement before expression: Prefix "+(--a)+"    Current value of a is :"+a);
+    }
+}
