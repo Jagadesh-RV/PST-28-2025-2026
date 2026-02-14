@@ -6,6 +6,7 @@ public class HollowPyramidPattern {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
+        System.out.println(" Hollow Pyramid Pattern  ");
 
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n - i; j++) {
@@ -26,3 +27,4 @@ public class HollowPyramidPattern {
         sc.close();
     }
 }
+
