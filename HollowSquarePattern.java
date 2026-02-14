@@ -6,6 +6,7 @@ public class HollowSquarePattern {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number: ");
         int n = sc.nextInt();
+        System.out.println("Hollow Square Pattern");
 
         for (int i = 0; i < n; i++) {
             if (i == 0 || i == n - 1) {
@@ -29,3 +30,4 @@ public class HollowSquarePattern {
         sc.close();
     }
 }
+
