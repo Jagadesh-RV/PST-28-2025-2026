@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class KaprekarNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
+        System.out.print("Enter a number to check it is kaprekar : ");
         int n = sc.nextInt();
 
         int square = n*n ;
