@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class PatternL{
         public static void main(String[] args) {
-
+        System.out.print("Pattern Problem");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter n: ");
         int n = sc.nextInt();
@@ -13,4 +13,5 @@ public class PatternL{
         }
     }
 }
+
 
