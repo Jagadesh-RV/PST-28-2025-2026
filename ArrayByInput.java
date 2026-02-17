@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class ArrayByInput {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); 
-        System.out.print("Enter the size of the array to make new array: ");
+        System.out.print("To get array input all values : Enter the size of the array to make new array: ");
         int size = scanner.nextInt();
         int[] array = new int[size];
         System.out.println("Enter the elements of the array:");
