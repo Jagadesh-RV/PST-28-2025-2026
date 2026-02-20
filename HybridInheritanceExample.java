@@ -2,7 +2,7 @@
 
 public class HybridInheritanceExample {
     public static void main(String[] args) {
-
+        System.out.println(Inheritance example ");
         C obj1 = new C();
         obj1.displayA();
         obj1.displayB();
@@ -36,4 +36,5 @@ class D extends B {
     void displayD() {
         System.out.println("Class D");
     }
+
 }
