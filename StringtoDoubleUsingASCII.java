@@ -30,7 +30,7 @@ public class StringtoDoubleUsingASCII {
                     decimalPlace /= 10.0;
                     result += (ch - '0') * decimalPlace;
                 } else {
-                    System.out.println("Invalid input");
+                    System.out.println("Invalid input given");
                     return;
                 }
                 i++;
@@ -41,4 +41,5 @@ public class StringtoDoubleUsingASCII {
         }
         System.out.println("The double value is: " + result);
     }
+
 }
