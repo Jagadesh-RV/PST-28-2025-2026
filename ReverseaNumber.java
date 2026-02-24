@@ -11,7 +11,8 @@ public class ReverseaNumber{
             n=n/10;
             
         }
-        System.out.println("The reverse of the given number is : "+n1);
+        System.out.println("The reverse of given number is : "+n1);
         sc.close();
     }
+
 }
