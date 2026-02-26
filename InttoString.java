@@ -5,6 +5,8 @@ public class InttoString {
         System.out.print("Enter an integer: "); 
         int number = scanner.nextInt();
         String str = Integer.toString(number);
-        System.out.println("The string representation of the integer is: " + str);
+        System.out.println("Integer to string :
+                           The string representation of the integer is: " + str);
     }
+
 }
