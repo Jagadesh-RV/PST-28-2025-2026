@@ -8,7 +8,7 @@ class EmployeeProblem {
     }
 
     void show() {
-        System.out.println("Employee: " + name);
+        System.out.println("Employee name : " + name);
         System.out.println("Salary: " + salary);
     }
 
@@ -17,3 +17,4 @@ class EmployeeProblem {
         e1.show();
     }
 }
+
