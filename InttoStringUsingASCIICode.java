@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class InttoStringUsingASCIICode {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter an integer: "); 
+        System.out.print("Int to String -Enter an integer: "); 
         int number = scanner.nextInt();
         String str = "";
         while(number > 0) {
@@ -13,4 +13,5 @@ public class InttoStringUsingASCIICode {
         }
         System.out.println("The string representation of the integer is: " + str);
     }
+
 }  
