@@ -38,6 +38,7 @@ class Rectangle extends Shape {
 
 public class RuntimePolymorphismExample {
     public static void main(String[] args) {
+        System.out.println("Polymorphism");
 
         Shape s;
 
@@ -49,3 +50,4 @@ public class RuntimePolymorphismExample {
         s.area();   
     }
 }
+
