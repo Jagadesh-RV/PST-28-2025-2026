@@ -4,7 +4,7 @@ public class CharacterCount {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter a string:");
+        System.out.println("Character count - Enter a string:");
         String str = sc.nextLine();
 
         System.out.println("Enter the character to count:");
@@ -21,3 +21,4 @@ public class CharacterCount {
         System.out.println("Occurrences of '" + ch + "': " + count);
     }
 }
+
