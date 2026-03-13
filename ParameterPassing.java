@@ -6,7 +6,7 @@ public class ParameterPassing {
 
     static void changePrimitive(int x) {
         x = 100;
-        System.out.println("Inside changePrimitive: " + x);
+        System.out.println("parameter passing -Inside changePrimitive: " + x);
     }
 
     static void changeObject(Student s) {
@@ -26,3 +26,4 @@ public class ParameterPassing {
         System.out.println("After method call (object): " + st.marks);
     }
 }
+
