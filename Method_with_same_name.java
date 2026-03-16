@@ -10,7 +10,7 @@ public class Method_with_same_name
 		int a=40;
 		int b=30;
 		int c=50;
-		System.out.println("Sum of "+ a +" and "+ b+" is :"+ sum(a,b));
+		System.out.println("Same method name -Sum of "+ a +" and "+ b+" is :"+ sum(a,b));
 		System.out.println("Sum of "+ a +" and "+ b+" is :"+ sum(a,b,c));
 	}
 }
