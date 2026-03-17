@@ -7,6 +7,6 @@ public class MergeArrays {
         int[] mergedArray = new int[array1.length + array2.length];
         System.arraycopy(array1, 0, mergedArray, 0, array1.length);
         System.arraycopy(array2, 0, mergedArray, array1.length, array2.length);
-        System.out.println("The merged array will be :" +Arrays.toString(mergedArray));
+        System.out.println("Merging Arrays -The merged array will be :" +Arrays.toString(mergedArray));
     }
 }
