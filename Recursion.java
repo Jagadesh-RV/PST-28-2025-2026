@@ -15,7 +15,7 @@ public class Recursion{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("1. Factorial");
+        System.out.println("Recursion -1. Factorial");
         System.out.println("2. Sum from 1 to n");
         System.out.print("Choose option: ");
         int choice = sc.nextInt();
