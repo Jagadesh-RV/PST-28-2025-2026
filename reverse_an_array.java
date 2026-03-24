@@ -10,6 +10,6 @@ public class reverse_an_array
 		    arr[i]=temp;
 		    
 		}
-		System.out.println("The reversed array is:"+Arrays.toString(arr));
+		System.out.println("Reverse an array -The reversed array is:"+Arrays.toString(arr));
 	}
 }
