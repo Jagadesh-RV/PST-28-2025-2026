@@ -1,7 +1,7 @@
 public class Main { 
     public static void main(String[] args) { 
         int a = 18,b=21,c=16; 
-        System.out.println("The value of a is greatest among the three :" + (a>b&&a>c));
+        System.out.println("Logical operations -The value of a is greatest among the three :" + (a>b&&a>c));
         System.out.println("The value of b is greatest among the three :"+(b>a&&b>c));
         System.out.println("The value of c is greatest among the three :"+(c>a&&c>b));
         System.out.println("Logical conditions to check a number is positive and even :");
