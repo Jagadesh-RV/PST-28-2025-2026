@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class harshad_number{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
+        System.out.print("Harshad number -Enter a number: ");
         int n = sc.nextInt();
         int digit_sum=0;
         int dn=n;
