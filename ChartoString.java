@@ -3,7 +3,7 @@ public class ChartoString {
     public static void main(String[] args) {
         System.out.println("Character to String Conversion");
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a character:");
+        System.out.println("Char to string -Enter a character:");
         char ch = sc.next().charAt(0);
         String result = Character.toString(ch);
         System.out.println("The string value is: " + result);
