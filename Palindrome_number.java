@@ -4,7 +4,7 @@ public class Palindrome_number {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
+        System.out.print("Palindrome number -Enter a number: ");
         int n = sc.nextInt();
 
         int original = n;  
