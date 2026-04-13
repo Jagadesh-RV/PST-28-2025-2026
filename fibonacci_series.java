@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class fibonacci_series{
 	public static void main(String[] args) {
-		System.out.println("Enter a number :");
+		System.out.println("Fibonacci -Enter a number :");
 		Scanner sc= new Scanner(System.in);
 		int n=sc.nextInt();
 		int n1 = 0, n2 = 1;
