@@ -13,6 +13,6 @@ public class asec_order_array {
             }
         }
 
-        System.out.println("The array is : " + Arrays.toString(arr));
+        System.out.println("Asc to Desc -The array is : " + Arrays.toString(arr));
     }
 }
