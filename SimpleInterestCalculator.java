@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SimpleInterestCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println(" Enter amount :");
+        System.out.println("Simple Interest Calculator -Enter amount :");
 
         double P = sc.nextDouble();
         System.out.println("Enter rate of interest :");
