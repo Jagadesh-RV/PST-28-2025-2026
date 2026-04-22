@@ -4,7 +4,7 @@ public class StringWithOnlyDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter a string:");
+        System.out.println("String with only digits -Enter a string:");
         String str = sc.nextLine();
 
         boolean isDigitOnly = true;
