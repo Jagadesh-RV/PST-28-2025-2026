@@ -1,4 +1,4 @@
-
+24
 package oop;
 
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Pangram {
     public static void main(String[] args) {
 
-        System.out.println("Enter the sentence:");
+        System.out.println("Pangram -Enter the sentence:");
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine().toLowerCase();
 
