@@ -3,7 +3,7 @@ public class Polymorphism_by_method
     public static int sum(){
         int a=10;
         int b=20;
-        System.out.println("Average of "+a + " and "+ b +" is :"+average());
+        System.out.println("Polymorphism -Average of "+a + " and "+ b +" is :"+average());
         return a+b;
     }
     public static int average(){
