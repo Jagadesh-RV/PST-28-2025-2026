@@ -7,7 +7,8 @@ public class Multiple_classes {
 
 class Second {
     public void fast() {
-        System.out.println("The car is going as fast as it can!");
+        System.out.println("Multiple classes -
+                           The car is going as fast as it can!");
         speed(200);
     }
 
