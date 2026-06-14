@@ -18,6 +18,6 @@ public class ArrayRotation {
 
         leftRotateByOne(originalArray);
 
-        System.out.println("Array after one left rotation: " + java.util.Arrays.toString(originalArray));
+        System.out.println("Array rotation -Array after one left rotation: " + java.util.Arrays.toString(originalArray));
     }
 }
