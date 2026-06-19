@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Pangram {
     public static void main(String[] args) {
 
-        System.out.println("Pangram -Enter the sentence:");
+        System.out.println("Pangram problem -Enter the sentence:");
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine().toLowerCase();
 
