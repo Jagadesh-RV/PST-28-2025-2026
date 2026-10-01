@@ -13,7 +13,7 @@ public class length_of_string_without_length_method
 	         }
 	    } catch(Exception e) {
 	    }
-	    System.out.println("The length of the given strinng is:"+count);
+	    System.out.println("The length of given string is:"+count);
 	   
 	}
 }
