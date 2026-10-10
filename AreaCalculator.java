@@ -24,7 +24,7 @@ public class AreaCalculator {
 
         switch (choice) {
             case 1:
-                System.out.print("Enter radius: ");
+                System.out.print("Enter radius of the circle : ");
                 double r = sc.nextDouble();
                 System.out.println("Area of Circle = " + area(r));
                 break;
