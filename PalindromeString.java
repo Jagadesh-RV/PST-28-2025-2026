@@ -23,7 +23,7 @@ public class PalindromeString {
         String input = sc.nextLine();
 
         if (isPalindrome(input)) {
-            System.out.println("It is a Palindrome");
+            System.out.println("The string  is a Palindrome");
         } else {
             System.out.println("It is NOT a Palindrome");
         }
