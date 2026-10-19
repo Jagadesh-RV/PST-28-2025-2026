@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class automorphic_number{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number to check automorphic nature of it : ");
+        System.out.print("Enter a number to check automorphic of it : ");
         int n = sc.nextInt();
         int s=0;
         s=((n*n)%100);
