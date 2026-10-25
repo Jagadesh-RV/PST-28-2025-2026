@@ -13,7 +13,7 @@ public class array_as_input{
             
         }
         int len=arr.length;
-        System.out.println("The elements in the given array are :");
+        System.out.println("The elements in given array are :");
         for(int i=0;i<len;i++){
             System.out.println(arr[i]);
         }
